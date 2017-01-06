@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\zhemi\\Documents\\GitHub\\ftc_sigma_2016\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "outputFile": "C:\\Users\\zhemi\\Documents\\GitHub\\ftc_2016\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "C:\\Users\\zhemi\\Documents\\GitHub\\ftc_sigma_2016\\FtcRobotController\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "file": "C:\\Users\\zhemi\\Documents\\GitHub\\ftc_2016\\FtcRobotController\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
