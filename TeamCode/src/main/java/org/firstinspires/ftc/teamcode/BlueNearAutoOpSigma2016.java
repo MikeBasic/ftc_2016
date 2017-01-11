@@ -94,21 +94,21 @@ public class BlueNearAutoOpSigma2016 extends LinearOpMode {
     // These constants define the desired driving/control characteristics
     // The can/should be tweaked to suite the specific robot drive train.
     static final double DRIVE_SPEED = 0.9;     // Nominal speed for better accuracy.
-    static final double P_DRIVE_COEFF = 0.1;     // Larger is more responsive, but also less stable
+    static final double P_DRIVE_COEFF = 0.05;     // Larger is more responsive, but also less stable
 
-    static final double TURN_SPEED = 0.2;     // Nominal half speed for better accuracy.
+    static final double TURN_SPEED = 0.25;     // Nominal half speed for better accuracy.
     static final double TURN_THRESHOLD = 2;      // As tight as we can make it with an integer gyro
     static final double P_TURN_COEFF = 0.05;     // Larger is more responsive, but also less stable
-    static final double MIN_TURN_SPEED = 0.15;     // Larger is more responsive, but also less stable
+    static final double MIN_TURN_SPEED = 0.18;     // Larger is more responsive, but also less stable
 
-    static final double maxLeftRightSpeedDifferentialAtDrive = 0.3;
+    static final double maxLeftRightSpeedDifferentialAtDrive = 0.5;
     static final double maxLeftRightSpeedDifferentialAtUS_Tracking = 0.5;
 
-    static final double WALL_APPROACHING_SPEED = 0.4;
+    static final double WALL_APPROACHING_SPEED = 0.6;
     static final double P_WALL_APPROACHING_COEFF = 0.1;
 
     static final double LINE_DETECTION_SPEED = 0.05;
-    static final double WALL_TRAVELING_SPEED = 0.35;
+    static final double WALL_TRAVELING_SPEED = 0.2;
     static final double P_WALL_TRACKING_COEFF_FINE = 0.025;// Larger is more responsive, but also less stable
     static final double P_WALL_TRACKING_COEFF_COARSE = 0.05;// Larger is more responsive, but also less stable
 
@@ -183,7 +183,7 @@ public class BlueNearAutoOpSigma2016 extends LinearOpMode {
         // Step through each leg of the path,
         // Note: Reverse movement is obtained by setting a negative distance (not speed)
         // Put a hold after each turn
-        gyroDrive(DRIVE_SPEED, 78, -55.0); // Drive FWD 81 inches along -50 degree
+        gyroDrive(DRIVE_SPEED, 80, -42.0);// Drive FWD 81 inches along -50 degree
         StopAllMotion();
         if (!opModeIsActive()) {
             return;
@@ -233,14 +233,14 @@ public class BlueNearAutoOpSigma2016 extends LinearOpMode {
 
         // Drive backward to detect the near line
         // pass the current white line without line detection
-        WallTrackingToWhiteLine(WALL_TRAVELING_SPEED, -18.0, false, CENTER_LIGHT_SENSOR);
+        WallTrackingToWhiteLine(0.5, -35.0, false, CENTER_LIGHT_SENSOR);
         if (!opModeIsActive()) {
             StopAllMotion();
             return;
         }
 
         // detect the near white line
-        WallTrackingToWhiteLine(WALL_TRAVELING_SPEED, -80.0, true, CENTER_LIGHT_SENSOR);
+        WallTrackingToWhiteLine(WALL_TRAVELING_SPEED, -30.0, true, CENTER_LIGHT_SENSOR);
         StopAllMotion();
         if (!opModeIsActive()) {
             return;
@@ -806,6 +806,52 @@ public class BlueNearAutoOpSigma2016 extends LinearOpMode {
                     break;
                 }
 
+                if (bLineDetection) {
+                    switch (whichLightSensor) {
+                        case CENTER_LIGHT_SENSOR:
+                            lightlevelR = robot.lineLightSensor.blue();
+                            lightlevelB = robot.lineLightSensor.red();
+                            lightlevelG = robot.lineLightSensor.green();
+
+                            groundbrightness = robot.groundbrightness_center;
+                            lineLightThresh = robot.CENTER_LIGHT_THRESH;
+                            break;
+
+                        case FRONT_LIGHT_SENSOR:
+                            lightlevelR = robot.front_light.blue();
+                            lightlevelB = robot.front_light.red();
+                            lightlevelG = robot.front_light.green();
+
+                            groundbrightness = robot.groundbrightness_front;
+                            lineLightThresh = robot.FRONT_LIGHT_THRESH;
+                            break;
+
+                        case BACK_LIGHT_SENSOR:
+                            lightlevelR = robot.back_light.blue();
+                            lightlevelB = robot.back_light.red();
+                            lightlevelG = robot.back_light.green();
+
+                            groundbrightness = robot.groundbrightness_back;
+                            lineLightThresh = robot.BACK_LIGHT_THRESH;
+                            break;
+
+                        default:
+                            System.out.println("--RedNear log-- invalid whichLightSensor=" + whichLightSensor);
+                            break;
+                    }
+
+                    lightlevel = lightlevelB + lightlevelR + lightlevelG;
+
+//                    System.out.println("Ground Brightness:: " + groundbrightness
+//                            + " Light Level:: " + lightlevel);
+
+                    if (lightlevel > lineLightThresh * groundbrightness) {
+                        System.out.println("Ground Brightness:: " + groundbrightness
+                                + " DETECTED Light Level:: " + lightlevel);
+                        break;
+                    }
+                }
+
                 if (distance < 0) {
                     ultraSoundLevel = robot.ultra_back.getUltrasonicLevel();
                 } else {
@@ -818,7 +864,7 @@ public class BlueNearAutoOpSigma2016 extends LinearOpMode {
                 angleOffset = gyro.getIntegratedZValue();
 
                 ct3++;
-                if (ct3 > 50) {
+                if (ct3 > 500) {
                     ct3 = 0;
 
                     System.out.println("--BlueNear log-- ultrasoniclevel=" + ultraSoundLevel + " error=" + error + " angleOffset=" + angleOffset);
@@ -959,8 +1005,8 @@ public class BlueNearAutoOpSigma2016 extends LinearOpMode {
 
                     lightlevel = lightlevelB + lightlevelR + lightlevelG;
 
-                    System.out.println("Ground Brightness:: " + groundbrightness
-                            + " Light Level:: " + lightlevel);
+//                    System.out.println("Ground Brightness:: " + groundbrightness
+//                            + " Light Level:: " + lightlevel);
 
                     if (lightlevel > lineLightThresh * groundbrightness) {
                         System.out.println("Ground Brightness:: " + groundbrightness

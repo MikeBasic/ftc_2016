@@ -27,7 +27,7 @@ public class HardwareSigma2016
     public int groundbrightness_back=0;
     public final double FRONT_LIGHT_THRESH = 2.5;
     public final double BACK_LIGHT_THRESH = 2.5;
-    public final double CENTER_LIGHT_THRESH = 2.0;
+    public final double CENTER_LIGHT_THRESH = 2.75;
 
     /* Public OpMode members. */
     public DcMotor  backLeftMotor = null;
