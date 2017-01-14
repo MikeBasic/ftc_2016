@@ -3,129 +3,129 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\Inspection-release\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9bf02f41db1f6ec91af06ec508925c91ac5c72e9">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Inspection-release_ff866b2cc4e994e15c97f78121ee25bd635cbe05.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ba3817622501fb5da8e6b967e42c6717fbd26b02">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_0715a8cade236829a1266f44afca7bbedc3dd7b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\Vuforia.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="58b9241fc73757cb6e0cdc32422a71a8e7e6d178">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\Vuforia_16b11535ab83f65a3443ff34373ecb6771e6f688.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-WirelessP2p-release_9e419ee89f363fb84ce067b0165c988628edba9b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-ModernRobotics-release_7e821bfac7496b14c8cd0b66000890b83ccb89f2.jar" />
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-ModernRobotics-release_c44651605c41fae2f3226e10f0a6508c6671b7d0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\Vuforia.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="d6ae9eaa33163842e7d8139586f51c9b1b82382b">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\instant-run_7e702db995d6faf1b72bdab9b17525f5415ba9c1.jar" />
+        sha1="58b9241fc73757cb6e0cdc32422a71a8e7e6d178">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\Vuforia_10c4e7780200b6d0961e6b5ada4b88f2dea05d74.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\Blocks-release\jars\classes.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\Inspection-release\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="bfdfb2339e516dcb78b53e85a9f32e33ee71833f">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Blocks-release_8cb5c405ee36ec5592d4258473b745ce8322a499.jar" />
+        sha1="9bf02f41db1f6ec91af06ec508925c91ac5c72e9">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Inspection-release_5c092ae0fc102f56b71d51afaad3778de3d47a3d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\support-annotations-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Analytics-release_6a9c962286045fcf0d5f2debc3134261f1e5f61a.jar" />
+        sha1="ba3817622501fb5da8e6b967e42c6717fbd26b02">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_2758be150edbd168b7bfff3acd5c883f241678c4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="9e48964863dc204a6dfc3f2c97b23dc60ba5ffd6">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\instant-run-bootstrap_efffc3b07b713c2facb2e2a63613254ef502d621.jar" />
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-WirelessP2p-release_feb4e9fd398c1462b02f715e8767a30944ea1c3e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\d2xx.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="04004e5f55992d1d8a105a4ade7be348986ed34e">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\d2xx_1db1a5b47757bf5b7c3bd3cb0b4767db5d3a445c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f6a826116ec7bc3c38197e60ff96e806e2a323b8">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\gson-2.7_9cad0d62cc0697d12e0fa7a3d0cf5b68709a9eca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="42c41c87fc12bbc65308fd3f55c87d2e1cdf8912">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-FtcCommon-release_aa0c8ee99c9b4e8db133df4f69b76fdc5cefee25.jar" />
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-FtcCommon-release_f6d57a840248e954e097f529f3195e2f2a8181b3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="af2b87925edcd9a73a161be660834d66fb4f79cc">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\instant-run-bootstrap_532db0b7241d9d2bd17ab77d2e81af45651469b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\d2xx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="04004e5f55992d1d8a105a4ade7be348986ed34e">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\d2xx_3c958eaa3d75c76e64ea704534f9f01060faf12b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\libs\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f6a826116ec7bc3c38197e60ff96e806e2a323b8">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\gson-2.7_53be9ecc220ae892ab3b236ada141787f9e4a5f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="51343b483c5a260b7203ac91d9009f27d38d8e3d">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-RobotCore-release_39e0f26e6aaa51ba0a928639aac01c4442dddd23.jar" />
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-RobotCore-release_dbf6e2cd6a950380f25e7b24a55bbbe1905cf807.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="63a4d0190159eced229a7f049cc441258f7cb6a9">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\instant-run_dde6659b59dcfd1c111ee7039c394ff746af632d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\Blocks-release\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bfdfb2339e516dcb78b53e85a9f32e33ee71833f">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Blocks-release_de304f943635a248f770b63a13b5c0371744df2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Analytics-release_2cb309f1bb9262dbd15ac3c14cf2a3c74601b3b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="a82bee948963c3d4ed5b535c680c3183f5d1bcb6">
-        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_sigma_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Hardware-release_2ea9453015218cb5d46beffc4f7356917a2b31cb.jar" />
+        <dex dex="C:\Users\zhemi\Documents\GitHub\ftc_2016\TeamCode\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-Hardware-release_0a320927dab619252f72b54185d69f655d20cf33.jar" />
     </item>
 
 </items>

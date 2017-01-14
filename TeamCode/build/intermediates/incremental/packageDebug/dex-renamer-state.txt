@@ -1,0 +1,4 @@
+#Fri Jan 13 23:02:04 CST 2017
+base.0=C\:\\Users\\zhemi\\Documents\\GitHub\\ftc_2016\\TeamCode\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\zhemi\\Documents\\GitHub\\ftc_2016\\TeamCode\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

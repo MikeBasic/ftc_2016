@@ -22,12 +22,14 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 public class HardwareSigma2016
 {
-    public int groundbrightness_center=0;
-    public int groundbrightness_front=0;
-    public int groundbrightness_back=0;
-    public final double FRONT_LIGHT_THRESH = 2.5;
-    public final double BACK_LIGHT_THRESH = 2.5;
-    public final double CENTER_LIGHT_THRESH = 2.75;
+    public int groundbrightness_test1=0;
+    public int groundbrightness_test2=0;
+    public int groundbrightness_test3=0;
+    public int groundbrightnessAVG = 0;
+    public final double CENTER_LIGHT_THRESH = 3.0;
+
+    public int centerLightSensorLevel = 0;
+    public int centerLightSensorLevelMax = 0;
 
     /* Public OpMode members. */
     public DcMotor  backLeftMotor = null;
@@ -37,8 +39,6 @@ public class HardwareSigma2016
     public Servo    pusherL    = null;
     public Servo    pusherR   = null;
     public ColorSensor lineLightSensor = null;
-    public ColorSensor front_light = null;
-    public ColorSensor back_light = null;
     public ColorSensor beaconColorSensor = null;
     public UltrasonicSensor ultra_front = null;
     public UltrasonicSensor ultra_back = null;
@@ -48,7 +48,6 @@ public class HardwareSigma2016
     public static final double PUSHER_L_OUT  =  0.0 ;
     public static final double PUSHER_R_OUT  =  1.0 ;
     public static final double PUSHER_STOP = 0.5;
-
 
     /* local OpMode members. */
     HardwareMap hwMap           =  null;
@@ -96,19 +95,11 @@ public class HardwareSigma2016
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        groundbrightness_center = lineLightSensor.red() + lineLightSensor.green() + lineLightSensor.blue();
+        groundbrightness_test1 = lineLightSensor.red() + lineLightSensor.green() + lineLightSensor.blue();
 
         // color sensor on beacon pusher
         beaconColorSensor = hwMap.colorSensor.get("beacon_color");
         beaconColorSensor.enableLed(false);
-
-        front_light = hwMap.colorSensor.get("front_light");
-        front_light.enableLed(false);
-        groundbrightness_front = front_light.red() + front_light.green() + front_light.blue();
-
-        back_light = hwMap.colorSensor.get("back_light");
-        back_light.enableLed(false);
-        groundbrightness_back = back_light.red() + back_light.green() + back_light.blue();
 
         // ultrasonic sensor
         ultra_back = hwMap.ultrasonicSensor.get("ultra_back");
@@ -116,7 +107,7 @@ public class HardwareSigma2016
         ultra_front = hwMap.ultrasonicSensor.get("ultra_front");
         ultra_front.getUltrasonicLevel(); // make ultrasonic sensor ready and give stable output when needed.
 
-        System.out.println("--------------- Sigma2016, hardware is initialized!");
+        System.out.println("Sigma2016 -- hardware is initialized!");
     }
 
     /***
